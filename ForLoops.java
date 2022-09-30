@@ -7,10 +7,10 @@ public class ForLoops
     int d = -8;
 
     public void run() {
-        for (int i = 0; i >= 15; i += 1) {
+        for (int i = 0; i <= 15; i += 1) {
             System.out.println("i is equal to " + i);
         }
-        for (int j = 10; j == 0; j+=(-2)) {
+        for (int j = 10; j != 0; j+=(-2)) {
             System.out.println("j is equal to " + j);
         }
         for (int k = 10; k == 0; k+=(-3)) {
